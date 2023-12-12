@@ -1,5 +1,5 @@
 [project]
-name = "zipcode"
+name = "jpzipcode"
 version = "0.1.0"
 description = "日本の郵便番号から住所を取得するAPI"
 authors = [
@@ -9,9 +9,9 @@ dependencies = []
 readme = "README.md"
 requires-python = ">= 3.12"
 
-# [build-system]
-# requires = ["hatchling"]
-# build-backend = "hatchling.build"
+[build-system]
+requires = ["hatchling<=1.18.0"]
+build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
