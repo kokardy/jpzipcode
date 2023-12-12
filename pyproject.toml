@@ -5,7 +5,8 @@ description = "日本の郵便番号から住所を取得するAPI"
 authors = [
     { name = "kokardy", email = "mgc1028@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+]
 readme = "README.md"
 requires-python = ">= 3.12"
 
