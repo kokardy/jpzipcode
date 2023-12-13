@@ -1,6 +1,6 @@
 [project]
 name = "jpzipcode"
-version = "0.2.1"
+version = "0.3.0"
 description = "日本の郵便番号から住所を取得するAPI"
 authors = [
     { name = "kokardy", email = "mgc1028@gmail.com" }
@@ -22,6 +22,7 @@ dev-dependencies = [
     "ruff>=0.1.7",
     "black>=23.11.0",
     "isort>=5.13.1",
+    "fastapi[all]>=0.105.0",
 ]
 
 [tool.hatch.metadata]
