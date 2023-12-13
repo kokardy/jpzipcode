@@ -3,7 +3,7 @@
 import os
 
 
-from src.resolver import read_csv_file, read_official_URL
+from jpzipcode.resolver import read_csv_file, read_official_URL
 
 
 class TestLoadingSource:
@@ -26,3 +26,4 @@ class TestLoadingSource:
         assert zips[0].address.prefecture == "大阪府"
         assert zips[0].address.city == "吹田市"
         assert zips[0].address.town == "山田丘"
+
